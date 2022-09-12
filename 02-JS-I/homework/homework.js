@@ -157,7 +157,8 @@ function esPositivo(numero) {
   //Si el número es 0, devuelve false
   if (num = 0) {return false}
   else if (num > 0) {return positivo}
-  else (num < 0) {return negativo}
+  else (num < 0) 
+  {return negativo}
 }
 
 function agregarSimboloExclamacion(str) {

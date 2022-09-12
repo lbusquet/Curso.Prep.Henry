@@ -1,0 +1,5 @@
+    * Variables: son aquellos elementos que no contienen un valor constantes, sino que éste puede variar.
+	* Strings: son hilos, palabras, escritos entre comillas
+	* Funciones (argumentos, `return`) las funciones son aquellos protocolos que utilizan argumentos y arrojan un resultado producto del proceso que se estableció
+	* Declaraciones `if` es un condicional, segmenta el codigo dependiendo si se cumple o no la condicion establecida.
+	* Valores booleanos (`true`, `false`) son valores logicos, dependen de ciertas condiciones, son arrojados por las mismas para establecer un cambio en el algoritmo.

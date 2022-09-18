@@ -96,6 +96,12 @@ function numeroMasGrande(numeros) {
   // "numeros" debe ser una matriz de enteros (int/integers)
   // Devuelve el número más grande
   // Tu código:
+  var vmax = numeros[0]
+  for (var i = 0;i<numeros.length;i++)
+  {if(numeros[i]>vmax){vmax = numeros[i]}}
+  return vmax
+
+
 }
 
 
@@ -103,13 +109,22 @@ function multiplicarArgumentos() {
   // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
   // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
   // Escribe tu código aquí:
+
+  if (arguments.length < 1) {return 0}
+  var  resultado = 1
+  for (var i = 0; i < arguments.length ; i++) {resultado=resultado*arguments[i]}
+  return resultado
+
 }
 
 
 function cuentoElementos(arreglo){
   //Realiza una función que retorne la cantidad de los elementos del arreglo cuyo valor es mayor a 18.
   //Escribe tu código aquí
-
+  conteo = 0
+  for (var i = 0; i < arreglo.length; i++)
+  {if(arreglo[i] > 18) {conteo=conteo+1}}
+  return conteo
 }
 
 

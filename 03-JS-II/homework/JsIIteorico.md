@@ -3,4 +3,4 @@
 `&&`, `||`, `!`
 && es un and, que se agrega en un condicional
 || es un or, que se agregar en un condicional
-! no lo use para resolver
+! no lo use para resolver pero junto a "=" implica distinto.

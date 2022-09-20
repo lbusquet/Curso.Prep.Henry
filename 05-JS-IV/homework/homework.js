@@ -88,7 +88,7 @@ function actualizarPassword(usuario, nuevaPassword) {
   // Devuelve el objeto
   // Tu código:
   usuario.password = nuevaPassword
-  return objeto
+  return usuario
 }
 
 function agregarAmigo(usuario, nuevoAmigo) {
@@ -96,7 +96,7 @@ function agregarAmigo(usuario, nuevoAmigo) {
   // Agrega "nuevoAmigo" al final de ese array
   // Devuelve el objeto "usuario"
   // // Tu código:
-  usuario.amigo.push(nuevoAmigo)
+  usuario.amigos.push(nuevoAmigo)
   return usuario
 }
 

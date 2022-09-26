@@ -1,2 +1,2 @@
-* `prototype`:
-* _Constructors_ (de Clases):
+* `prototype`: es la forma en la que las clases establecen un metodo y dan acceso a objetos, sirve para definir metodos de objetos o para sobreescrirlos, representa el prototipo de cada objeto
+* _Constructors_ (de Clases): sirve para crear o inicializar un objeto a partir de una clase

@@ -1,3 +1,1 @@
-FUNCIONES:
-
-CALLBACK:
+FUNCIONES<CALLBACK>: es la manera en la que podemos ejecutar una funcion desde otra enviandola como argumento, 

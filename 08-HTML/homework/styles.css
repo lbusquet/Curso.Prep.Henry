@@ -1,9 +1,10 @@
-h1 {color:brown}
-#comidas {height:300px; width:400px}
+ h1 {color:brown}
+#comidas {height:250px; width:400px}
 #thirdDiv {height:600px; width:500px};
-#thirdDiv {background: rgb(2,0,36);background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(7,57,148,1) 16%, rgba(0,212,255,1) 50%, rgba(2,167,224,1) 59%, rgba(9,18,121,0.9570203081232493) 93%);}
+#thirdDiv {background-color:greenyellow;}
 #thirdDiv {padding: 50px;}
 #thirdDiv {border-style:dashed;border-width: 5px;border-color: bisque;}
 #spanId {font-size: 18px;}
 #spanId {margin:50px}
+
 

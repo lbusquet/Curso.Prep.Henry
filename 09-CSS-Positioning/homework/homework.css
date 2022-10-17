@@ -16,7 +16,8 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 /* Ejercicio 2: Posicionar el header */
 
 /* Acá va tu código */
-#header {
+#ejercicioDos {
+    display: none
     
 
 
@@ -48,11 +49,21 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Acá va tu código */
 #ejercicioCinco {
-   display:flex;
-   justify-content:center;
-   align-items: flex-start
-
-}
-
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+   }
 
 /* Ejercicio 6. */
+
+#ejercicioSiete {
+    justify-items:center;
+    align-items:flex-start;
+    flex-direction: column-reverse;
+
+}
+#elementoDos{
+    align-items:flex-end;
+    justify-items:center
+}

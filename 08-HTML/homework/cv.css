@@ -5,3 +5,34 @@
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     }
+    .div1 { grid-area: 1 / 1 / 6 / 2; }
+    .div2 { grid-area: 1 / 5 / 6 / 6; }
+    .div3 { grid-area: 1 / 2 / 2 / 5; }
+    .div4 { grid-area: 2 / 2 / 6 / 4; }
+    .div5 { grid-area: 2 / 4 / 6 / 5; }
+   
+#nombre{ 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color:#7ecb4d; 
+}
+#column1 {
+    background: rgb(2,0,36);
+    background: linear-gradient(87deg, rgba(2,0,36,1) 0%, rgba(126,203,77,1) 38%);
+}
+#column2 {
+    background: rgb(126,203,77);
+    background: linear-gradient(87deg, rgba(126,203,77,1) 38%, rgba(2,0,36,1) 100%);
+}
+#column3 {
+    padding: 15px;
+    background-color: #7ecb4d;
+}
+#titulo {
+    display:flex;
+    text-align: center;
+    justify-content: center;
+}
+
+
